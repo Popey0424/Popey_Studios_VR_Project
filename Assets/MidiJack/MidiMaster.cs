@@ -21,6 +21,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 //
+using System;
+
 namespace MidiJack
 {
     public static class MidiMaster
@@ -94,6 +96,11 @@ namespace MidiJack
         public static float GetKnob(int knobNumber, float defaultValue = 0)
         {
             return MidiDriver.Instance.GetKnob(MidiChannel.All, knobNumber, defaultValue);
+        }
+
+        internal static int GetKeyDevice(int note)
+        {
+            throw new NotImplementedException();
         }
     }
 }

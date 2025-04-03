@@ -3,7 +3,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(SpriteRenderer))]
-public class Track : MonoBehaviour
+public class TrackWaveFrom : MonoBehaviour
 {
     public int width = 1024;
     public int height = 64;
@@ -98,5 +98,17 @@ public class Track : MonoBehaviour
         // Correction du Z en gardant la valeur initiale
         Vector3 arrowPosition = arrow.transform.position;
         arrow.transform.position = new Vector3(sprend.bounds.min.x, transform.position.y, arrowPosition.z);
+    }
+    public void PauseWaveform()
+    {
+        // Si tu veux arrêter l'affichage de la waveform pendant la pause
+        Debug.Log("PauseMusic");
+        Time.timeScale = 0f; // Met tout le temps en pause
+    }
+
+    public void ResumeWaveform()
+    {
+        // Si tu veux reprendre l'affichage de la waveform
+        Time.timeScale = 1f; // Remet le temps normal
     }
 }

@@ -7782,6 +7782,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464818575}
   m_Mesh: {fileID: 8540773247852821160, guid: 2c75279929e24aa4cac777bccd0dd48d, type: 3}
+--- !u!1 &467821108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 467821110}
+  - component: {fileID: 467821109}
+  m_Layer: 0
+  m_Name: DecksDebbuger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &467821109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467821108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c16eec1cb428646be6578f121b7392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &467821110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467821108}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &475688736
 GameObject:
   m_ObjectHideFlags: 0
@@ -13310,6 +13354,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801426104}
   m_Mesh: {fileID: -8479762164687946298, guid: 2c75279929e24aa4cac777bccd0dd48d, type: 3}
+--- !u!1 &819129808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 819129810}
+  - component: {fileID: 819129809}
+  m_Layer: 0
+  m_Name: Deck1Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &819129809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819129808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b6af490eb689740be9d8763a539ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackScript: {fileID: 920467080}
+  AudioSource: {fileID: 920467082}
+--- !u!4 &819129810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819129808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &820564579
 GameObject:
   m_ObjectHideFlags: 0
@@ -15235,6 +15325,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916050338}
   m_Mesh: {fileID: -2921786712147525958, guid: 2c75279929e24aa4cac777bccd0dd48d, type: 3}
+--- !u!114 &920467080 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3509766547570556806, guid: fbf9a7506df9d3e45ab9e69881b5b285,
+    type: 3}
+  m_PrefabInstance: {fileID: 215694673}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f227b3e01c626544aa779a59f68ed416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &920467082 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4066280247010198399, guid: fbf9a7506df9d3e45ab9e69881b5b285,
+    type: 3}
+  m_PrefabInstance: {fileID: 215694673}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &930040182
 GameObject:
   m_ObjectHideFlags: 0
@@ -117513,3 +117621,5 @@ SceneRoots:
   - {fileID: 196873877}
   - {fileID: 2049276832}
   - {fileID: 215694673}
+  - {fileID: 819129810}
+  - {fileID: 467821110}
